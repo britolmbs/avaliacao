@@ -1,0 +1,4 @@
+sudo su
+cd /home/brito/
+cp -rf * /backup
+

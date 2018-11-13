@@ -1,0 +1,12 @@
+echo "Escreva o Link"
+read LINK
+
+
+if test "$LINK"
+then
+cd "/home/brito/Downloads"
+wget "$LINK"
+else
+echo "Não Baixou"
+fi
+
